@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  padding:0;
+  margin-left: 0;
+}
+
+.informations {
+  margin-left: 16px;
+}
+
+/* make sidebar nav vertical */
+@media (min-width: 768px) {
+  .sidebar-nav .navbar {
+    .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  ul {
+    float: none;
+    display: block;
+  }
+  li {
+    float: none;
+    display: block;
+  }
+}
+
+.informations {
+  margin-left: 0;
+}
+}
+
+
+.pic {
+  width: 50px;
+  height: 340px;
+  background: blue;
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.informations {
+  width: 400px;
+  height: 400px;
+  padding: 10px 30px;
+  margin-right: 16px;
+}
